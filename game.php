@@ -27,7 +27,7 @@
 
       // If the ball hits the left or right edge of the screen, reverse its direction.
       if (ball.style.left < 0 || ball.style.left > window.innerWidth) {
-        ball.style.left = ball.style.left - 5 + "px";
+        ball.style.left = ball.style.left - 5 + "px"; 
       }
     }
 
